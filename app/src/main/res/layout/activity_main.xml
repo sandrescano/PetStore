@@ -17,12 +17,13 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="TODO" />
 
     <Button
         android:id="@+id/btnlogin"
         android:layout_width="225dp"
-        android:layout_height="43dp"
+        android:layout_height="48dp"
         android:text="Entrar"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,10 +52,12 @@
         android:ems="10"
         android:inputType="textPersonName|textEmailAddress"
         android:minHeight="48dp"
+        android:text="admin@admin.com"
         app:layout_constraintBottom_toTopOf="@+id/txtPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:text="admin@admin.com" />
 
     <EditText
         android:id="@+id/txtPassword"
@@ -65,10 +68,13 @@
         android:layout_marginBottom="225dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:text="P4ssw0rd*"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail"
+        tools:text="P4ssw0rd*" />
 
     <TextView
         android:id="@+id/lblEmail"

@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PetStore">
         <activity
+            android:name=".LayoutDrawableActivity"
+            android:exported="false"
+            android:label="@string/title_activity_layout_drawable"
+            android:theme="@style/Theme.PetStore.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
